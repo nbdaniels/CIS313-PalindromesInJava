@@ -2,4 +2,4 @@
 
 Palindrome checker written in Java
 
-Using self-implemeneted Stacks and Queues
+Using self-implemented Stacks and Queues
