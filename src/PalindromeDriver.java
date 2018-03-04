@@ -23,12 +23,14 @@ public class PalindromeDriver
 
         Scanner stdin = new Scanner(System.in);
         String line;
+        System.out.println("Please enter the number of palindromes to input");
         num_phrases = Integer.parseInt(stdin.nextLine());
         results = new String[num_phrases];
         
         //loop through palindrome inputs
         for (int i = 0; i < num_phrases; i++)
         {
+        	 System.out.println("Please enter a palindrome:");
         	 line = stdin.nextLine();
         	 //manipulate line variable so that it is all lower case
         	 //and does not contain any spaces or other special symbols/punctuation
